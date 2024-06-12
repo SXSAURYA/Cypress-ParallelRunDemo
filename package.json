@@ -37,6 +37,7 @@
     "multiple-cucumber-html-reporter": "^3.6.2"
   },
   "scripts": {
+    "start": "node server.js",
     "test": "npx cypress run",
     "report": "node report.ts",
     "testAndreport": "npm run test && npm run report",
