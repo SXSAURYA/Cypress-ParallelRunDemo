@@ -1,0 +1,7 @@
+{
+  "testFiles": "cypress/e2e/bdd/**/*.feature",
+  "parallel": {
+    "browsers": 1,
+    "instances": 3
+  }
+}
